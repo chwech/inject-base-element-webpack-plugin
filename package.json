@@ -1,0 +1,21 @@
+{
+  "name": "@chwech/inject-base-element-webpack-plugin",
+  "version": "0.0.3",
+  "description": "在htmlWebpackPlugin生成html后，复制一个并注入base标签输出",
+  "main": "index.js",
+  "dependencies": {
+    "parse5": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html",
+    "inject"
+  ],
+  "author": "chwech 804699297@qq.com",
+  "license": "ISC"
+}
