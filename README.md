@@ -1,0 +1,1 @@
+在html-webpack-plugin注入资源后，复制一份html, 并在其中注入一个base标签
