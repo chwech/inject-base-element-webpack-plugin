@@ -19,8 +19,8 @@ module.exports = {
 }
 ```
 ## options
-Name | Type | Default | Description
---|--|--|--
+| Name | Type | Default | Description |
+|:----:|:-----:|:------|:--------|
 fileName| {string} | 'test.html'| 生成的html文件名
 href | {string} | 'http://www.chwech.com' | base标签的href属性值
 

@@ -20,7 +20,7 @@ Plugin.prototype.apply = function (compiler) {
       const [HtmlWebpackPlugin] = compiler.options.plugins.filter(
           (plugin) => plugin.constructor.name === 'HtmlWebpackPlugin');
 
-      // htmlWebpackPlugin v3 的钩子
+      // htmlWebpackPlugin v4 的钩子
       hook = HtmlWebpackPlugin.constructor.getHooks(compilation).beforeEmit;
     }
 
